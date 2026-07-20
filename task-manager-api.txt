@@ -1,0 +1,30 @@
+task-manager-api/
+├── app/                    # Core application code
+│   ├── Http/
+│   │   ├── Controllers/    # Controllers
+│   │   └── Middleware/     # HTTP Middleware
+│   ├── Models/             # Eloquent Models
+│   └── Providers/          # Service Providers
+├── bootstrap/              # Framework bootstrap files
+├── config/                 # Configuration files
+├── database/
+│   ├── factories/          # Model Factories
+│   ├── migrations/         # Database Migrations
+│   └── seeders/            # Database Seeders
+├── public/                 # Public assets (entry point)
+├── resources/
+│   ├── css/                # CSS files
+│   ├── js/                 # JavaScript files
+│   └── views/              # Blade templates
+├── routes/
+│   ├── api.php             # API routes
+│   ├── console.php         # Console commands
+│   └── web.php             # Web routes
+├── storage/                # Generated files, logs, cache
+├── tests/                  # Test files
+├── vendor/                 # Composer dependencies
+├── .env                    # Environment variables
+├── artisan                 # Artisan CLI
+├── composer.json           # PHP dependencies
+├── docker-compose.yml      # Docker configuration (Sail)
+└── package.json            # NPM dependencies
